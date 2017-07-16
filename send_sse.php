@@ -5,6 +5,6 @@ header('Cache-Control: no-cache');
 //generate random number for demonstration
 $new_data = rand(0, 1000);
 //echo the new number
-echo "data: New random number: $new_data";
+echo "retry: 5000\ndata: {$newdata}\n\n";
 flush();
 ?>
